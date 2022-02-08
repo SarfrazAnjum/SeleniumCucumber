@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun = false,
 		monochrome = true,
 		 plugin = {
-		"pretty", "summary", "html:target/cucumber.html","json:target/cucumber.json",
+		"pretty", "summary", "html:target/cucumber-reports/cucumber.html","json:target/cucumber-reports/cucumber.json",
 		"rerun:target/failed.txt" }// , snippets = CAMELCASE	tags = "@all",
 
 )
